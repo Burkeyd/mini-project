@@ -301,8 +301,23 @@ SMALLER SCREEN
     width: 400px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   input, textarea {
     width: 200px;
   }
+  .course__icon {
+  font-size: 60px;
+}
+  .course__title {  
+  font-size: 24px;
+  margin-left: 12px;
+  letter-spacing: 1px;
+}
+.course__selection {
+  letter-spacing: 0px;
+  font-size:16px;
+}
+.hero__description--button {
+  font-size: 16px;
+}
 }
