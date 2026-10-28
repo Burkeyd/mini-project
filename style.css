@@ -301,3 +301,8 @@ SMALLER SCREEN
     width: 400px;
   }
 }
+@media (max-width: 500px) {
+  input, textarea {
+    width: 200px;
+  }
+}
